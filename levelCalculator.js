@@ -18,7 +18,7 @@ function levelCalculator() {
     var json = response.getContentText();
     var list = JSON.parse(json);
     
-    str2 = "P" + String(i);
+    var str2 = "P" + String(i);
     
     if(list.Gor < 150) level = "20k";
     else if(list.Gor < 250) level = "19k";
@@ -66,7 +66,7 @@ function levelCalculator() {
     var json = response.getContentText();
     var list = JSON.parse(json);
     
-    str2 = "P" + String(i);
+    var str2 = "P" + String(i);
   
     if(list.Gor < 150) level = "20k";
     else if(list.Gor < 250) level = "19k";
@@ -114,7 +114,7 @@ function levelCalculator() {
     var json = response.getContentText();
     var list = JSON.parse(json);
     
-    str2 = "P" + String(i);
+    var str2 = "P" + String(i);
   
     if(list.Gor < 150) level = "20k";
     else if(list.Gor < 250) level = "19k";
@@ -162,7 +162,7 @@ function levelCalculator() {
     var json = response.getContentText();
     var list = JSON.parse(json);
     
-    str2 = "P" + String(i);
+    var str2 = "P" + String(i);
   
     if(list.Gor < 150) level = "20k";
     else if(list.Gor < 250) level = "19k";
